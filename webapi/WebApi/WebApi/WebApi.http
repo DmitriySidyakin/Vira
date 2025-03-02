@@ -1,0 +1,9 @@
+@WebApi_HostAddress = http://localhost:5257
+
+GET {{WebApi_HostAddress}}/Browser/GetPath/
+Accept: application/json
+
+GET {{WebApi_HostAddress}}/Browser/GetDisks/
+Accept: application/json
+
+###
